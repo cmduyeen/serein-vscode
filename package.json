@@ -1,13 +1,38 @@
 {
   "name": "serein-vscode",
-  "displayName": "Serein",
-  "description": "Serein color theme: extreme minimalism, warm surfaces and readable low-color syntax.",
+  "displayName": "Serein — Minimalist Warm Theme",
+  "description": "Extreme minimalism for focused coding. Warm Alabaster (Light) and Obsidian (Charcoal Dark) color themes with soft, eye-comfortable syntax highlighting.",
   "version": "0.1.0",
-  "publisher": "serein-local",
+  "publisher": "cmduyeen",
+  "author": "Dyn (cmduyeen) <https://cmduyeen.github.io/>",
   "license": "MIT",
+  "homepage": "https://cmduyeen.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmduyeen/serein-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cmduyeen/serein-vscode/issues"
+  },
   "engines": { "vscode": "^1.85.0" },
   "categories": ["Themes"],
-  "keywords": ["theme", "minimal", "warm", "light", "dark"],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "minimalist",
+    "warm-dark",
+    "warm-light",
+    "alabaster",
+    "obsidian",
+    "low-contrast",
+    "eye-comfort",
+    "clean",
+    "syntax"
+  ],
+  "galleryBanner": {
+    "color": "#191817",
+    "theme": "dark"
+  },
   "scripts": { "build": "python build.py", "test": "python build.py --check" },
   "contributes": {
     "themes": [
